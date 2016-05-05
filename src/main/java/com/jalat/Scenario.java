@@ -17,7 +17,6 @@ import javax.annotation.Nonnull;
  * @since  0.1
  */
 @PublicAPI
-@SuppressWarnings({"WeakerAccess", "unused"})
 @RunWith(ScenarioRunner.class)
 public abstract class Scenario implements Loggable, Assertions {
     private final ScenarioRecorder recorder = new ScenarioRecorder();
@@ -100,6 +99,7 @@ public abstract class Scenario implements Loggable, Assertions {
         recorder.addCheck(shortDescription, impl);
     }
 
+    @SuppressWarnings("unused")
     private ScenarioRecorder getRecorder() {
         return recorder;
     }

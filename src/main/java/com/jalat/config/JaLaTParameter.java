@@ -11,9 +11,9 @@ import java.util.function.Supplier;
  * @since 0.1
  */
 enum JaLaTParameter {
-    WRITE_SCENARIO("writeScenario", Defaults::TRUE),
+    WRITE_SCENARIO("writeScenario", Defaults::FALSE),
     SCENARIO_OUTPUT_DIR("scenario.outputDir", Defaults::SCENARIO_OUTPUT_DIR),
-    CLEAN_BEFORE_WRITE("cleanBeforeRun", Defaults::TRUE),
+    CLEAN_BEFORE_WRITE("cleanBeforeRun", Defaults::FALSE),
     REPORT_FORMAT("reportFormat", Defaults::MARKDOWN_REPORT)
     ;
 
@@ -34,8 +34,8 @@ enum JaLaTParameter {
     }
 
     private static class Defaults {
-        static String TRUE() {
-            return "true";
+        static String FALSE() {
+            return "false";
         }
 
         static String SCENARIO_OUTPUT_DIR() {
