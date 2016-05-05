@@ -13,7 +13,7 @@ import java.util.Collections;
  * @author Andrey Paslavsky
  * @since 0.1
  */
-public class ScenarioDescription implements InitializeOnlyOnce {
+public final class ScenarioDescription implements InitializeOnlyOnce {
     private String name;
     private Collection<UseCaseDescription> useCases = new ArrayList<>();
     private PreConditionDescription preCondition;

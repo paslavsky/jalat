@@ -15,7 +15,7 @@ import java.util.List;
  * @author Andrey Paslavsky
  * @since 0.1
  */
-public class UseCaseDescription extends BaseDescription implements CheckHolder {
+public final class UseCaseDescription extends BaseDescription implements CheckHolder {
     private Description jUnitDescription;
     private final List<CheckDescription> checks = new ArrayList<>();
     private PreConditionDescription preCondition;

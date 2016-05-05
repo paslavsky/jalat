@@ -109,7 +109,6 @@ public final class ScenarioRecorder {
             }
         };
         ExecutionContext.bind(scenario, propertiesLookupFunction);
-        // TODO
     }
 
     ScenarioDescription stopRecordScenario(Scenario scenario) {

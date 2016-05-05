@@ -5,7 +5,7 @@ import com.jalat.description.PostConditionDescription;
 import javax.annotation.Nonnull;
 
 /**
- * TODO
+ * Implementation of the {@link RecorderStrategy} to execute Post-Condition of some {@link com.jalat.Scenario}
  *
  * @author Andrey Paslavsky
  * @since 0.1

@@ -19,7 +19,7 @@ import java.util.Map;
  * @author Andrey Paslavsky
  * @since 0.1
  */
-class JaLaTConfigurationFactory {
+final class JaLaTConfigurationFactory {
     /**
      * This factory methods creates {@link JaLaTConfiguration} from {@link System#getProperties() system properties}
      * @return new {@link JaLaTConfiguration configuration}

@@ -18,7 +18,7 @@ import javax.annotation.Nullable;
  * @author Andrey Paslavsky
  * @since 0.1
  */
-class InitScenario implements RecorderStrategy, InitializeOnlyOnce {
+final class InitScenario implements RecorderStrategy, InitializeOnlyOnce {
     private final ScenarioDescription scenarioDescription = new ScenarioDescription();
     private final Stopwatch stopwatch = new Stopwatch(true);
 

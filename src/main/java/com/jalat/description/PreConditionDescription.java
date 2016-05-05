@@ -8,7 +8,7 @@ import com.jalat.VoidFunction;
  * @author Andrey Paslavsky
  * @since 0.1
  */
-public class PreConditionDescription extends BaseDescription {
+public final class PreConditionDescription extends BaseDescription {
     public PreConditionDescription(String shortDescription, VoidFunction body) {
         super(shortDescription, body);
     }

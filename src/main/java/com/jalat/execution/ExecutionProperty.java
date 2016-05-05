@@ -1,7 +1,7 @@
 package com.jalat.execution;
 
 /**
- * TODO Describe class
+ * Runtime properties that available via {@link ExecutionContext}
  *
  * @author Andrey Paslavsky
  * @since 0.1

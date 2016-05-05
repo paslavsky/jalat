@@ -14,7 +14,7 @@ import java.util.List;
  * @author Andrey Paslavsky
  * @since 0.1
  */
-public class StepDescription extends BaseDescription implements CheckHolder {
+public final class StepDescription extends BaseDescription implements CheckHolder {
     private final List<CheckDescription> checks = new ArrayList<>();
 
     public StepDescription(String shortDescription, VoidFunction body) {

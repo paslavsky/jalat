@@ -3,7 +3,7 @@ package com.jalat.execution;
 import javax.annotation.Nonnull;
 
 /**
- * TODO Describe class
+ * Interface to lookup
  *
  * @author Andrey Paslavsky
  * @since 0.1

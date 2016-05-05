@@ -11,7 +11,7 @@ import java.io.Writer;
  * @author Andrey Paslavsky (mailto:a.paslavsky@gmail.com)
  * @since 0.1
  */
-class MarkdownReportWriter implements ReportWriter {
+final class MarkdownReportWriter implements ReportWriter {
     private static final String LS = System.lineSeparator();
     private final Writer writer;
     private int level = 1;

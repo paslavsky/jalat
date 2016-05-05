@@ -5,7 +5,7 @@ import com.jalat.description.PreConditionDescription;
 import javax.annotation.Nonnull;
 
 /**
- * TODO
+ * Implementation of the {@link RecorderStrategy} to execute Pre-Condition of some {@link com.jalat.Scenario}
  *
  * @author Andrey Paslavsky
  * @since 0.1

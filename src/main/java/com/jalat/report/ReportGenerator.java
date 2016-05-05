@@ -18,7 +18,7 @@ import java.util.Collection;
  * @author Andrey Paslavsky (mailto:a.paslavsky@gmail.com)
  * @since 0.1
  */
-public class ReportGenerator {
+public final class ReportGenerator {
     public static void generateReport(Class<? extends Scenario> scenarioClass, ScenarioDescription description) {
         try (ReportWriter reportWriter = getReportWriter(scenarioClass)) {
             generateReport0(reportWriter, description);

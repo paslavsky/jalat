@@ -20,7 +20,7 @@ import java.util.Queue;
 import java.util.stream.Collectors;
 
 /**
- * TODO Describe class
+ * Root point of execution of the pre-/post-conditions and use-cases
  *
  * @author Andrey Paslavsky
  * @since 0.1

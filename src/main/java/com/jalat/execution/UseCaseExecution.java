@@ -7,12 +7,12 @@ import com.jalat.util.Stopwatch;
 import javax.annotation.Nonnull;
 
 /**
- * Step execution strategy
+ * Use-case execution strategy
  *
  * @author Andrey Paslavsky
  * @since 0.1
  */
-class UseCaseExecution extends BaseExecutionStrategy<UseCaseDescription> {
+final class UseCaseExecution extends BaseExecutionStrategy<UseCaseDescription> {
     UseCaseExecution(@Nonnull UseCaseDescription root, @Nonnull RecorderStrategy parent) {
         super(root, parent);
     }

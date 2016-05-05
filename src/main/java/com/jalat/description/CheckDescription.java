@@ -8,7 +8,7 @@ import com.jalat.VoidFunction;
  * @author Andrey Paslavsky
  * @since 0.1
  */
-public class CheckDescription extends BaseDescription {
+public final class CheckDescription extends BaseDescription {
     public CheckDescription(String name, VoidFunction body) {
         super(name, body);
     }
